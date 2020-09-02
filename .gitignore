@@ -6,3 +6,5 @@ cache*
 SQuAD/
 index/
 /venv
+__pycache__/
+retriever/__pycache__/
