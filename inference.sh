@@ -1,4 +1,6 @@
-SQUAD_DIR=~/00_data/squad_v1.1/
+SQUAD_DIR=~/ielab/bertserini/SQuAD/SQuAD_v1.1
+OUTPUT_DIR=~/ielab/bertserini/SQuAD/inference_result
+OUTPUT_FILENAME=inference_result_bert_base_dev.json
 
 python ./search.py \
     --para_num 10 \
@@ -11,5 +13,5 @@ python ./search.py \
     --doc_stride 128 \
     --predict_file $SQUAD_DIR/dev-v1.1.json \
     --eval_batch_size=32 \
-    --output_fn result_bert_base.json \
-    --output_dir tmp/bert_base_squad
+    --output_fn $OUTPUT_FILENAME \
+    --output_dir $OUTPUT_DIR
