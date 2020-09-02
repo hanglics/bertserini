@@ -2,3 +2,6 @@ cache*
 *.log
 *.json
 /.idea
+.DS_Store
+SQuAD/
+index/
