@@ -1,6 +1,6 @@
 SQUAD_DIR=/data/y247xie/00_data/cmrc2018/data
 
-python ./interactive.py \
+python3 ./interactive.py \
     --para_num 10 \
     --index_path index/lucene-index.wiki_zh_paragraph_with_title_0.6.0.pos+docvectors \
     --model_type bert \

@@ -1,6 +1,6 @@
 SQUAD_DIR=/data/y247xie/00_data/cmrc2018/data
 
-python run_squad.py \
+python3 run_squad.py \
   --model_type bert \
   --model_name_or_path bert-base-chinese \
   --do_train \

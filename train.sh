@@ -1,6 +1,6 @@
 SQUAD_DIR=/data/yqxie/00_data/squad_v1.1
 
-python run_squad.py \
+python3 run_squad.py \
   --model_type bert \
   --model_name_or_path bert-base-uncased \
   --do_train \

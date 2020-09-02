@@ -2,7 +2,7 @@ SQUAD_DIR=~/ielab/bertserini/SQuAD/SQuAD_v1.1
 OUTPUT_DIR=~/ielab/bertserini/SQuAD/inference_result
 OUTPUT_FILENAME=inference_result_bert_base_dev.json
 
-python ./search.py \
+python3 ./search.py \
     --para_num 10 \
     --index_path index/lucene-index.enwiki-20180701-paragraphs \
     --model_type bert \
