@@ -1,5 +1,5 @@
 SQUAD_DIR=~/ielab/bertserini/SQuAD/SQuAD_v1.1
-OUTPUT_DIR=~/ielab/bertserini/SQuAD/inference_result
+OUTPUT_DIR=~/ielab/bertserini/inference_result
 OUTPUT_FILENAME=inference_result_bert_base_dev.json
 
 python3 ./search.py \
