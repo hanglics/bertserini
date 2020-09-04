@@ -1,6 +1,6 @@
 SQUAD_DIR=~/ielab/bertserini/SQuAD/SQuAD_v1.1
 OUTPUT_DIR=~/ielab/bertserini/results/bert_base_squad_v1
-OUTPUT_FILENAME=inference_result_bert_base_squad_v1_dev.json
+OUTPUT_FILENAME=~/ielab/bertserini/results/bert_base_squad_v1/inference_result_bert_base_squad_v1_dev.json
 
 python3 ./search.py \
     --para_num 10 \
